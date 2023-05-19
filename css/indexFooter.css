@@ -1,0 +1,43 @@
+/* Footer do site */
+
+.area__footer{
+    max-width: 1920px;
+    width: 100%;
+    display: grid;
+    grid-template-areas:
+        "telefone email facebook";
+    grid-template-columns: 0.5fr 0.5fr 0.5fr;
+    justify-items: center;
+    align-items: center;
+    flex-direction: row;
+    color: var(--white-color);
+    
+}
+.texto__infomacoes{
+    display: flex;
+    margin-top: 10px;
+}
+
+#icones__footer{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.container__footer__telefone{
+    display: flex;
+    grid-area: telefone;
+    flex-direction: column;
+}
+
+.container__footer__email{
+    display: flex;
+    grid-area: email;
+    flex-direction: column;
+}
+
+.container__footer__facebook{
+    display: flex;
+    grid-area: facebook;
+    flex-direction: column;
+}
